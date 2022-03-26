@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="17983" appversion="6.1.9" start="node1">
+  <panorama id="node1">
+    <input width="2048" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" overlap="1" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048">
+      <level width="2048" preload="0" predecode="0" height="2048"/>
+      <level width="1024" preload="0" predecode="0" height="1024"/>
+      <level width="512" preload="0" predecode="0" height="512"/>
+      <level width="256" preload="1" predecode="1" height="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="345" fovmode="0">
+      <start fov="71.8575" pan="2.3381" tilt="-0.714954" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fovstereographic="270" fov="120" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata customnodeid="" longitude="139.68545201" author="" nodeid="node1" source="" tags="Desktop" latitude="35.22563664" datetime="8/24/2020 12:01 PM" info="" description="" title="" copyright="" comment="" heading="345">
+      <mapcoords x_floorplan_percent="52.7419" y="-2.04071" y_floorplan_percent="99.8656" mapid="FloorPlan01" x="0.898132"/>
+      <mapcoords x_floorplan_percent="54.6559" y="-2.1492" y_floorplan_percent="99.5864" mapid="FloorPlan02" x="1.29776"/>
+    </userdata>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" distance3D="371.477" customimagewidth="65" url="{node2}" target="$fwd" fov="10" description="Look Future" customimageheight="65" skinid="ht_node" distance="4.283" pan="6.56" title="Look Future" tilt="-7.15" customimage="media/11111.png" use3D="0"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomspeed="2" enabled="1" softedge="0" zoomin="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedmouse="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" lockedwheel="0" rubberband="0" hideabout="0" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input width="2048" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" overlap="1" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048">
+      <level width="2048" preload="0" predecode="0" height="2048"/>
+      <level width="1024" preload="0" predecode="0" height="1024"/>
+      <level width="512" preload="0" predecode="0" height="512"/>
+      <level width="256" preload="1" predecode="1" height="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="351" fovmode="0">
+      <start fov="70" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fovstereographic="270" fov="120" fovfisheye="360" pan="360" tilt="90"/>
+    </view>
+    <userdata customnodeid="" longitude="139.685442" author="" nodeid="node2" source="" tags="Desktop" latitude="35.225599" datetime="8/24/2020 12:01 PM" info="" description="" title="" copyright="" comment="" heading="351">
+      <mapcoords x_floorplan_percent="52.9032" y="-2.03796" y_floorplan_percent="99.7312" mapid="FloorPlan01" x="0.900879"/>
+    </userdata>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" distance3D="371.477" customimagewidth="65" url="{node1}" target="$fwd" fov="10" description="Return" customimageheight="65" skinid="ht_node" distance="4.283" pan="-17.37" title="Return" tilt="-24.29" customimage="media/222222.png" use3D="0"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomspeed="2" enabled="1" softedge="0" zoomin="0" blendtime="1" zoomoutpause="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedmouse="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" lockedwheel="0" rubberband="0" hideabout="0" lockedkeyboardzoom="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" simulatemass="1" dblclickfullscreen="0" contextprojections="0"/>
+  </panorama>
+  <masternode>
+    <userdata customnodeid="" longitude="" author="" nodeid="master" source="" tags="" latitude="" datetime="" info="" description="" title="" copyright="" comment="" heading="0"/>
+  </masternode>
+  <map id="Map01" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" type="web" mapprovider="openstreetmap" mapstyle="streets" title="" mapmaxzoom="18"/>
+  <map id="FloorPlan01" width="620" bgcolor="rgba(255, 255, 255, 1)" type="file" floorplannorth="0" transparent="0" title="" zoomlevels="1" tileformat="jpg" height="744"/>
+  <map id="FloorPlan02" width="3458" bgcolor="rgba(255, 255, 255, 1)" type="file" floorplannorth="6" transparent="0" title="" zoomlevels="1" tileformat="jpg" height="3143"/>
+</tour>
